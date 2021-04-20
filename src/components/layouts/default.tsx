@@ -47,7 +47,7 @@ const Default: React.FC<Props> = ({ children }) => {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
         <meta
           name="description"
-          content="Welcome to my personal website. I'm software engineer and student, who is exploring new technologies and developing software solutions"
+          content="I'm software engineer and student, who is exploring new technologies and developing software solutions"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://adamschinzel.cz/" />
