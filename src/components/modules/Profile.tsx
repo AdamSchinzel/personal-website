@@ -17,7 +17,12 @@ const Main = styled.div`
 const Profile: React.FC = () => {
   return (
     <Main>
-      <img src="https://res.cloudinary.com/dp4scbmz5/image/upload/v1618919664/1601491255079_1_mchpcm.png" alt="Profile" />
+      <img
+        src="https://res.cloudinary.com/dp4scbmz5/image/upload/v1618919664/1601491255079_1_mchpcm.png"
+        alt="Profile"
+        width="175"
+        height="175"
+      />
       <Heading>Adam Schinzel</Heading>
       <BasicText job>Software engineer and student</BasicText>
       <BasicText profile>📱Mobile: React Native</BasicText>

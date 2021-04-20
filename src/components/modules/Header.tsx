@@ -12,7 +12,7 @@ const HeaderDiv = styled.div`
 const Header: React.FC = () => {
   return (
     <HeaderDiv>
-      <img src="https://res.cloudinary.com/dp4scbmz5/image/upload/v1618917440/Group_1_xmunc2.png" alt="Logo" />
+      <img src="https://res.cloudinary.com/dp4scbmz5/image/upload/v1618917440/Group_1_xmunc2.png" alt="Logo" width="79" height="39" />
       <Button>Download CV</Button>
     </HeaderDiv>
   )
