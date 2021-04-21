@@ -43,23 +43,25 @@ const Default: React.FC<Props> = ({ children }) => {
         <meta name="viewport" content="width=device-width initial-scale=1" />
         <link rel="icon" href="https://res.cloudinary.com/dp4scbmz5/image/upload/v1618916079/favicon_cfeg6j.png" />
         <title>Adam Schinzel - software engineer</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet" />
         <meta
           name="description"
-          content="I'm software engineer and student, who is exploring new technologies and developing software solutions."
+          content="I'm software engineer and student, who is exploring new technologies and developing software solutions"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://adamschinzel.cz/" />
         <meta property="og:title" content="Adam Schinzel - software engineer" />
         <meta
           property="og:description"
-          content="I'm software engineer and student, who is exploring new technologies and developing software solutions."
+          content="I'm software engineer and student, who is exploring new technologies and developing software solutions"
         />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://adamschinzel.cz/" />
         <meta property="twitter:title" content="Adam Schinzel - software engineer" />
         <meta
           property="twitter:description"
-          content="I'm software engineer and student, who is exploring new technologies and developing software solutions."
+          content="I'm software engineer and student, who is exploring new technologies and developing software solutions"
         />
       </Helmet>
       <ThemeProvider theme={theme}>
