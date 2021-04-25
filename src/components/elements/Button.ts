@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Button = styled.button`
+const Button = styled.a`
   background-color: ${props => props.theme.blue_primary};
   color: ${props => props.theme.white_secodary};
   border-radius: 8px;
@@ -11,6 +11,10 @@ const Button = styled.button`
   font-size: ${props => props.theme.font_size_primary};
   font-weight: ${props => props.theme.font_weight_primary};
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 
   &:hover {
     background-color: ${props => props.theme.blue_secondary};

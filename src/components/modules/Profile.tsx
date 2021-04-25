@@ -26,7 +26,7 @@ const Profile: React.FC = () => {
       <Heading>Adam Schinzel</Heading>
       <BasicText job>Software engineer and student</BasicText>
       <BasicText profile>📱Mobile: React Native</BasicText>
-      <BasicText profile>🌐 Web: React (Next.js, Gatby), Vue (Nuxt.js, Gridsome), Hugo</BasicText>
+      <BasicText profile>🌐 Web: React (Next.js, Gatsby), Vue (Nuxt.js, Gridsome), Hugo</BasicText>
       <BasicText profile>💻 Backend: Node.js, PostgreSQL, Docker</BasicText>
     </Main>
   )
