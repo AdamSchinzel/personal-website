@@ -28,6 +28,8 @@ const Profile: React.FC = () => {
       <BasicText profile>📱Mobile: React Native</BasicText>
       <BasicText profile>🌐 Web: React (Next.js, Gatsby), Vue (Nuxt.js, Gridsome), Hugo</BasicText>
       <BasicText profile>💻 Backend: Node.js, PostgreSQL, Docker</BasicText>
+      <BasicText profile>🧪 Testing: Cypress, Jest</BasicText>
+      <BasicText profile>🔧 API: REST, GraphQL</BasicText>
     </Main>
   )
 }
