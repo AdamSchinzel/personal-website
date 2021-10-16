@@ -25,11 +25,11 @@ const Profile: React.FC = () => {
       />
       <Heading>Adam Schinzel</Heading>
       <BasicText job>Software engineer and student</BasicText>
-      <BasicText profile>📱Mobile: React Native</BasicText>
-      <BasicText profile>🌐 Web: React (Next.js, Gatsby), Vue (Nuxt.js, Gridsome), Hugo</BasicText>
+      <BasicText profile>📱 React Native</BasicText>
+      <BasicText profile>🍏 Swift (macOS/iOS)</BasicText>
+      <BasicText profile>🌐 Web: React (Next.js, Gatsby), Vue (Nuxt.js, Vuetify)</BasicText>
       <BasicText profile>💻 Backend: Node.js, PostgreSQL, Docker</BasicText>
-      <BasicText profile>🧪 Testing: Cypress, Jest</BasicText>
-      <BasicText profile>🔧 API: REST, GraphQL</BasicText>
+      <BasicText profile>🧪 Testing: Cypress, Jest, Detox</BasicText>
     </Main>
   )
 }
