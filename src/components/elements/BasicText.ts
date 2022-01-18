@@ -9,8 +9,8 @@ const BasicText = styled.p<{ profile?: boolean; job?: boolean }>`
     css`
       text-align: center;
       color: ${props => props.theme.white_primary};
+      padding-bottom: 5px;
     `}
-
   ${props =>
     props.job &&
     css`
@@ -18,7 +18,7 @@ const BasicText = styled.p<{ profile?: boolean; job?: boolean }>`
       color: ${props => props.theme.white_primary};
       font-size: ${props => props.theme.font_size_secondary};
       margin-bottom: 40px;
-    `}
+    `};
 `
 
 export default BasicText
