@@ -1,0 +1,16 @@
+{
+  "name": "Adam Schinzel",
+  "icons": [
+    {
+      "src": "/static/favicon.png",
+      "sizes": "24x24",
+      "type": "image/png"
+    }
+  ],
+  "short_name": "Full stack developer insterested in blockchain and AI.",
+  "start_url": "/",
+  "theme_color": "#F97316",
+  "background_color": "#fff",
+  "display": "standalone",
+  "orientation": "portrait-primary"
+}

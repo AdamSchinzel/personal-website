@@ -1,0 +1,61 @@
+---
+import { SEO } from "astro-seo";
+
+type Props = {
+  title?: string;
+  description?: string;
+  noindex?: boolean;
+  og?: {
+    title: string;
+    type: string;
+    description: string;
+    image: string;
+    alt: string;
+  };
+};
+
+const { title, description, noindex, og } = Astro.props;
+
+const DEFAULT_TITLE_PAGE = "Adam Schinzel";
+const DEFAULT_DESCRIPTION_PAGE =
+  "I'm a full-stack developer and designer based in the United States. I specialize in building and designing exceptional websites, applications, and everything in between";
+const DEFAULT_URL_SITE = "https://adam-schinzel.vercel.app/";
+
+const openGraph = {
+  title: og?.title || DEFAULT_TITLE_PAGE,
+  type: og?.type || "website",
+  image: og?.image || "/opengraph-image.jpg",
+  alt: og?.alt || "astro portfolio template image",
+  url: DEFAULT_URL_SITE,
+  description: og?.description || DEFAULT_DESCRIPTION_PAGE,
+};
+---
+
+<head>
+  <SEO
+    charset="UTF-8"
+    title={title || DEFAULT_TITLE_PAGE}
+    description={description || DEFAULT_DESCRIPTION_PAGE}
+    noindex={noindex || false}
+    openGraph={{
+      basic: {
+        title: openGraph.title,
+        type: openGraph.type,
+        image: openGraph.image,
+      },
+      image: {
+        alt: openGraph.alt,
+      },
+    }}
+    extend={{
+      link: [
+        { rel: "icon", href: "/favicon.png" },
+        { rel: "sitemap", href: "/sitemap-index.xml" },
+      ],
+      meta: [
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+        { name: "generator", content: Astro.generator },
+      ],
+    }}
+  />
+</head>

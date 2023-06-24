@@ -1,0 +1,21 @@
+{
+  "extends": ["plugin:astro/recommended"],
+  "env": {
+    "es6": true
+  },
+  "overrides": [
+    {
+      "files": ["*.astro"],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "ecmaVersion": "latest",
+        "parser": "@typescript-eslint/parser",
+        "": [".astro"]
+      },
+      "rules": {},
+      "env": {
+        "es6": true
+      }
+    }
+  ]
+}
