@@ -1,13 +1,13 @@
-import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
-import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
-import webmanifest from "astro-webmanifest";
 import robotsTxt from "astro-robots-txt";
+import webmanifest from "astro-webmanifest";
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://adam-schinzel.vercel.app/",
+  site: "https://www.adamschinzel.com/",
   integrations: [
     tailwind(),
     sitemap(),
