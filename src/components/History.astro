@@ -1,0 +1,30 @@
+---
+import HistoryItem from "./HistoryItem.astro";
+import HistoryYear from "./HistoryYear.astro";
+---
+
+<div class="flex-col items-center px-6 w-full sm:px-4 md:px-0">
+  <HistoryYear title="2023" />
+  <ul class="mb-4">
+    <HistoryItem title="Finished high school with red diploma" time="May" type="school" isBottom />
+  </ul>
+  <HistoryYear title="2022" />
+  <ul class="mb-4">
+    <HistoryItem title="Established my second company" time="February" type="business" isBottom />
+  </ul>
+  <HistoryYear title="2021" />
+  <ul class="mb-4">
+    <HistoryItem title="Placed in the top 25 for High Schooler of the Year" time="September" type="competition" />
+    <HistoryItem title="Established my first company" time="August" type="business" />
+    <HistoryItem title="Won Startup VŠE" time="April" type="competition" isBottom />
+  </ul>
+  <HistoryYear title="2020" />
+  <ul class="mb-4">
+    <HistoryItem title="Allowed by the Czech court to do business before the age of 18" time="October" type="work" />
+    <HistoryItem title="Co-founded my first statup" time="March" type="startup" isBottom />
+  </ul>
+  <HistoryYear title="2003" />
+  <ul class="mb-4">
+    <HistoryItem title="Born in Brno" time="August" type="cake" isBottom />
+  </ul>
+</div>
