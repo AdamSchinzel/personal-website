@@ -29,6 +29,7 @@
     "astro-robots-txt": "0.5.0",
     "astro-seo": "0.7.2",
     "astro-webmanifest": "0.6.0",
+    "clsx": "1.2.1",
     "tailwindcss": "^3.3.2"
   },
   "devDependencies": {

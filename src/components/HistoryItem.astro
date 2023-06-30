@@ -1,0 +1,62 @@
+---
+import clsx from 'clsx';
+
+import Cake from "./icons/Cake.astro";
+import Building from "./icons/Building.astro";
+import Rocket from "./icons/Rocket.astro";
+import School from "./icons/School.astro";
+import Trophy from "./icons/Trophy.astro";
+import Work from "./icons/Work.astro";
+
+type Props = {
+  title: string;
+  type: "cake" | "school" | "work" | "startup" | "business" | "competition";
+  time: string;
+  isBottom?: boolean;
+};
+
+const { title, type, time, isBottom } = Astro.props;
+---
+
+<li>
+  <div class={clsx("relative", isBottom && "pb-2", !isBottom && "pb-8")}>
+    {!isBottom && 
+      <span
+        class="absolute top-4 left-4 -ml-px w-0.5 h-full bg-gray-500"
+        aria-hidden="true"
+      />
+    }
+    <div class="flex relative space-x-3">
+      <div>
+        <span
+          class={clsx(
+            "flex justify-center items-center w-8 h-8 dark:text-gray-100 rounded-full ring-8 ring-white dark:ring-transparent",
+                type === "cake" && "bg-pink-500",
+                type === "competition" && "bg-orange-500",
+                type === "business" && "bg-green-500",
+                type === "school" && "bg-yellow-500",
+                type === "startup" && "bg-fuchsia-500",
+                type === "work" && "bg-indigo-500",
+              )}
+            >
+              {type === "cake" && <Cake />}
+              {type === "school" && <School />}
+              {type === "competition" && <Trophy />}
+              {type === "work" && <Work />}
+              {type === "business" && <Building />}
+              {type === "startup" && <Rocket />}
+        </span>
+      </div>
+      <div class="flex flex-1 justify-between items-center space-x-4 min-w-0">
+        <div>
+          <p class="text-neutral-100">
+            {title}
+          </p>
+        </div>
+        <p class="text-right">
+          {time}
+        </p>
+      </div>
+    </div>
+  </div>
+</li>      

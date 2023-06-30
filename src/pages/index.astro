@@ -9,6 +9,7 @@ import convertAsteriskToStrongTag from "@/utils/convertAsteriskToStrongTag";
 
 import presentation from "@/data/presentation";
 import { projects, contributions } from "@/data";
+import History from "@/components/History.astro";
 
 ---
 
@@ -54,6 +55,15 @@ import { projects, contributions } from "@/data";
                 />
               ))
         }
+      </section>
+    </article>
+
+    <article class="flex flex-col gap-8">
+      <header class="flex w-full flex-row justify-between gap-2">
+        <h3 class="text-lg text-neutral-100">My history</h3>
+      </header>
+
+      <History />
       </section>
     </article>
 
