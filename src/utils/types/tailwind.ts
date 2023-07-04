@@ -1,4 +1,4 @@
-export type TailwindColor =
+type TailwindColor =
   | "orange"
   | "violet"
   | "red"
@@ -15,3 +15,13 @@ export type TailwindColor =
   | "fushia"
   | "pink"
   | "rose";
+
+export type Theme = {
+  colors: {
+    primary: TailwindColor;
+    blur: {
+      top: TailwindColor;
+      bottom: TailwindColor;
+    };
+  };
+};
