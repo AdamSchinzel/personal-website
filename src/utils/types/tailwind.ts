@@ -1,4 +1,4 @@
-type TailwindColor =
+export type TailwindColor =
   | "orange"
   | "violet"
   | "red"
