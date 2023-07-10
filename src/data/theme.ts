@@ -1,4 +1,4 @@
-import type { Theme } from "@/utils/types/tailwind";
+import type { Theme } from "@/types/tailwind";
 
 const theme: Theme = {
   colors: {
