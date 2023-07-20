@@ -14,7 +14,7 @@ const presentation: Presentation = {
   mail: "schinzel.adam@gmail.com",
   title: "Hi, I'm Adam 👋",
   description:
-    "I'm a *fullstack developer* with over *5 years* of experience. I like to build stuff and learn new things. My biggest interests are *blockchain* and *AI*.",
+    "I'm a *fullstack developer* with over *5 years* of experience currently working at Trezor. I like to build stuff and learn new things. My biggest interests are *blockchain* and *AI*.",
   socials: [
     {
       label: "LinkedIn",
