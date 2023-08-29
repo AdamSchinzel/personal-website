@@ -40,9 +40,19 @@ export const projects: Project[] = [
 
 export const contributions: Contribution[] = [
   {
+    title: "Trezor",
+    description: "Hardware wallet for cryptocurrencies developed by SatoshiLabs",
+    link: "https://trezor.io/",
+  },
+  {
     title: "Flux",
     description: "Graph-based LLM power tool for exploring many completions in parallel by Paradigm",
     link: "https://flux.paradigm.xyz/",
+  },
+  {
+    title: "Rivet",
+    description: "Developer wallet & devTools for Anvil by Paradigm",
+    link: "https://github.com/paradigmxyz/rivet",
   },
   {
     title: "Lenster",
