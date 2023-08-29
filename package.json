@@ -25,7 +25,7 @@
     "@astrojs/vercel": "3.5.0",
     "@fontsource/open-sans": "^5.0.1",
     "astro": "^2.5.5",
-    "astro-compress": "1.1.47",
+    "astro-compress": "2.0.14",
     "astro-robots-txt": "0.5.0",
     "astro-seo": "0.7.2",
     "astro-webmanifest": "0.6.0",
