@@ -12,19 +12,19 @@ export type Contribution = {
 
 export const projects: Project[] = [
   {
+    title: "Advomate",
+    techs: ["React", "Next.js", "Nest.js", "Python", "LangChain" ],
+    link: "https://www.advomate.cz/",
+  },
+  {
     title: "DataCast",
-    techs: ["React", "Next.js", "Astro", "Python", "Nest.js"],
+    techs: ["React", "Next.js", "Python", "Nest.js", "LangChain" ],
     link: "https://www.datacast.ai/",
   },
   {
     title: "Coindash",
     techs: ["React", "Next.js", "Chakra UI"],
     link: "https://coindash-crypto.vercel.app/",
-  },
-  {
-    title: "Ares Registry",
-    techs: ["TypeScript", "Node.js", "Camaro"],
-    link: "https://www.npmjs.com/package/ares-registry",
   },
   {
     title: "Worldcoin on Lens",
